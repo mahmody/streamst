@@ -11,8 +11,8 @@ const jimp = require('jimp')
 const math = require('math-expression-evaluator'); 
 const child_process = require("child_process");
 const developers = ['518113780723351592'];
-const admin = ".";
-const prefix = ".";
+const admin = "#";
+const prefix = "#";
 
 
 //=============================== - [ Bot ] - ===================================
@@ -42,7 +42,7 @@ client.on('message', message => {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(` ☑ Client Activity Now Is : \`Listening ${argresult} \` `)
   } else 
-  if (message.content.startsWith(admin + 'setstream')) {
+  if (message.content.startsWith(admin + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/idk");
      message.channel.send(` ☑ Client Activity Now Is : \`Streaming ${argresult} \` `)
   }
