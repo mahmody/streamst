@@ -10,7 +10,7 @@ const r1 = require('snekfetch');
 const jimp = require('jimp')
 const math = require('math-expression-evaluator'); 
 const child_process = require("child_process");
-const developers = ['290908670529896448'];
+const developers = ['518113780723351592'];
 const admin = ".";
 const prefix = ".";
 
