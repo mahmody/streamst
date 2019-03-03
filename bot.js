@@ -23,7 +23,7 @@ client.on('ready', () => {
   console.log(`Servers : [ " ${client.guilds.size} " ]`);
   console.log(`Users : [ " ${client.users.size} " ]`);
   console.log(`Channels : [ " ${client.channels.size} " ]`);
-  client.user.setActivity("You | .help",{type: 'WATCHING'})
+  client.user.setActivity("offline",{type: 'WATCHING'})
   client.user.setStatus("dnd")
 });
 
